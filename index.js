@@ -1,5 +1,5 @@
-var randomBytesAndroid = require("randombytes-native.android");
-var randomBytesIos = require("randombytes-native.ios");
+var randomBytesAndroid = require("./randombytes-native.android");
+var randomBytesIos = require("./randombytes-native.ios");
 
 module.exports = function (length, cb) {
   try {
